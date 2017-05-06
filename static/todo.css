@@ -1,0 +1,101 @@
+body  {
+    background-color: #f7dcc6;
+}
+
+.container {
+    height: 500px;
+    width:250px;
+    background-color: white;
+    margin: 50px auto;
+}
+
+.center {
+    text-align: center;
+    color: #e6b748;
+}
+
+.header {
+    height:80px;
+    width:100%;
+    padding: 10px 0;
+    position:relative;
+    width:100%;
+    background-image: url(背景.jpg);
+    background-size:100% 100%;
+}
+
+.input {
+    position:relative;
+    margin-left: 47px;
+    margin-top: 38px;
+}
+
+.input span {
+    position: absolute;
+    top:-4px;
+    font-size: 1.5em;
+    color: white;
+}
+
+#id-input-todo {
+    height: 19px;
+    font-size: 0.5em;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 5px grey;
+    border-radius: 4px;
+    opacity: 0.7;
+}
+
+#id-div-list {
+
+}
+
+.todo-cell {
+    line-height: 35px;
+    position: relative;
+    height: 30px;
+    padding: 5px 0;
+    margin-left: 10px;
+    border-bottom: 1px solid #f5e6cf;
+}
+
+
+.todo-done {
+    position:relative;
+    top: 5%;
+}
+
+.todo-content {
+    font-size: 0.5em;
+}
+
+.todo-delete {
+    position: absolute;
+    right: 5px;
+    top: 18px;
+}
+
+#id-div-list {
+    overflow: auto;
+    height: 350px;
+}
+
+
+
+.title {
+    margin-left: 10px;
+    padding: 10px 0;
+    color: #e6b748;
+}
+
+.vertical-center {
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+    /* 完成的样式 */
+.done {
+    color: gray;
+    text-decoration: line-through ;
+}
